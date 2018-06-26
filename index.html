@@ -1,1 +1,67 @@
-Hello World
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&amp;subset=cyrillic" rel="stylesheet">
+	<style>
+		html, body {
+			height: 100%;
+			width: 100%;
+			overflow: hidden;
+			margin: 0;
+		}
+		body {
+			font-family: 'Source Sans Pro', sans-serif;
+			font-size: 12px;
+			font-weight: 400;
+		}
+		#primaryContainer {
+			display: table;
+			height: 100%;
+			width: 100%;
+			margin: 0;
+		}
+		#main {
+			display: table-cell;
+			width: 80%;
+			height: 100%;
+			overflow: hidden;
+			background-image: url("img/IMG_0019.jpg");
+			background-clip: border-box;
+			background-size: cover;
+			background-position-x: 50%;
+			background-position-y: 50%;
+		}
+		#side {
+			display: table-cell;
+			width: 20%;
+			min-width: 200px;
+			height: 100%;
+			/* left: 100%;
+			top: 0;
+			position: relative; */
+		}
+		#textBox {
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-top: 20px;
+		}
+	</style>
+<title>Philipp Pisarevskiy</title>
+</head>
+
+<body>
+<div id="primaryContainer">
+	<div id="main"></div>
+	<div id="side">
+		<div id="textBox">
+		<p style="font-size: 14px; font-weight: 600;">Philipp Pisarevskiy</p>
+	  	<p style="font-size: 14px">Product Designer</p>
+		<div>Download CV</div>
+		<div>Browse portfolio</div>
+		</div>
+	</div>
+	</div>
+	
+	</body>
+</html>
