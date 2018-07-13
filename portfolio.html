@@ -30,6 +30,11 @@
 <!-- /Yandex.Metrika counter -->
 <script type="text/javascript">
   window.onload = function() {
-    window.location.href="https://drive.google.com/open?id=1pYRus8XuDkob2tWGrSSjSsUKObrpPldM";
+      var portfolio = "https://drive.google.com/open?id=1pYRus8XuDkob2tWGrSSjSsUKObrpPldM";
+      if(yaCounter49535986 != null) {
+        window.location.href = portfolio;
+      } else {
+        setTimeout(function() { window.location.href = portfolio; }, 500);
+      }
   };
 </script>
