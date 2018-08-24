@@ -2,17 +2,17 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122466626-1"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122466626-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-122466626-1');
-    </script>
+    </script> -->
 
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         (function (d, w, c) {
             (w[c] = w[c] || []).push(function () {
                 try {
@@ -41,35 +41,11 @@
         <div>
             <img src="https://mc.yandex.ru/watch/49535986" style="position:absolute; left:-9999px;" alt="" />
         </div>
-    </noscript>
+    </noscript> -->
     <!-- /Yandex.Metrika counter -->
     <script type="text/javascript">
-        function getParameterByName(name, url) {
-            if (!url) url = window.location.href;
-            name = name.replace(/[\[\]]/g, '\\$&');
-            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-                results = regex.exec(url);
-            if (!results) return null;
-            if (!results[2]) return '';
-            return decodeURIComponent(results[2].replace(/\+/g, ' '));
-        }
         window.onload = function () {
-            window.portfolio = "https://drive.google.com/open?id=1pYRus8XuDkob2tWGrSSjSsUKObrpPldM";
-            if (getParameterByName("id", window.location.href) == null) {
-                window.portfolio = "https://drive.google.com/open?id=1pYRus8XuDkob2tWGrSSjSsUKObrpPldM";
-            } else {
-                var id = getParameterByName("id", window.location.href);
-                if (!new RegExp(/[^a-zA-Z0-9_\-]/g).exec(id) && id.length < 100) {
-                    window.portfolio = "https://drive.google.com/open?id=" + id;
-                } else {
-                    window.portfolio = "https://drive.google.com/open?id=1pYRus8XuDkob2tWGrSSjSsUKObrpPldM";
-                }
-            }
-            if (window.hasOwnProperty("yaCounter49535986")) {
-                window.location.href = window.portfolio;
-            } else {
-                setTimeout(function () { window.location.href = window.portfolio; }, 500);
-            }
+            window.location.href = "https://pisarevskiy.me";
         };
     </script>
 </head>

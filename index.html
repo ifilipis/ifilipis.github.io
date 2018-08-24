@@ -5,16 +5,16 @@
 	<meta charset="UTF-8">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&amp;subset=cyrillic" rel="stylesheet">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122466626-1"></script>
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122466626-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 
 		gtag('config', 'UA-122466626-1');
-	</script>
+	</script> -->
 	<!-- Yandex.Metrika counter -->
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 		(function (d, w, c) {
 			(w[c] = w[c] || []).push(function () {
 				try {
@@ -43,7 +43,7 @@
 		<div>
 			<img src="https://mc.yandex.ru/watch/49535986" style="position:absolute; left:-9999px;" alt="" />
 		</div>
-	</noscript>
+	</noscript> -->
 	<!-- /Yandex.Metrika counter -->
 	<style>
 		html,
@@ -65,36 +65,35 @@
 			height: 100%;
 			width: 100%;
 			margin: 0;
+			position: absolute;
 		}
 
-		#main {
+		/* left side */
+
+		#left {
 			display: table-cell;
-			width: 80%;
+			width: 24%;
+			min-width: 200px;
+			padding: 0 60px;
 			height: 100%;
-			overflow: hidden;
-			background-image: url("img/IMG_0019.jpg");
-			background-clip: border-box;
-			background-size: cover;
-			background-position-x: 50%;
-			background-position-y: 50%;
+			position: relative;
+			max-width: 250px;
+			overflow: scroll;
 		}
 
-		#side {
-			display: table-cell;
-			width: 20%;
-			min-width: 280px;
+		#left-table {
+			display: table;
+			position: relative;
 			height: 100%;
+			width: 100%;
 		}
 
 		#textBox {
-			/*margin-left: 40px;
-	margin-right: 40px;
-	margin-top: 30px;
-	margin-bottom: 40px;*/
-			padding: 0 40px;
-			position: absolute;
-			overflow: scroll;
 			height: 100%;
+			vertical-align: middle;
+			display: table-cell;
+			white-space: nowrap;
+			position: absolute;
 		}
 
 		a:link {
@@ -116,40 +115,124 @@
 			border: thin solid gray;
 			display: inline-block;
 		}
+
+		.valign {
+			display: inline-block;
+			vertical-align: middle;
+			white-space: normal;
+		}
+
+		.valign.gap {
+			height: 100%;
+			white-space: nowrap;
+		}
+		
+		/* right side */
+		
+		#main {
+			display: table-cell;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			padding-right: 5%;
+		}
+
+		#boxwrapper {
+			height: 100%;
+			width: 100%;
+			display: table;
+			/* position: relative; */
+		}
+
+		.tr {
+			display: table-row;
+		}
+
+		.tr.gap {
+			height: 10%;
+		}
+
+		.tr.header {
+			height: 40px;
+		}
+
+		.td {
+			display: table-cell;
+			width: 33%;
+		}
+
+		.td.image {
+			background-position: center;
+			background-size: cover;
+		}
+
+		.td.header {
+			padding: 0 5px;
+		}
 	</style>
 	<title>Philipp Pisarevskiy</title>
 </head>
 
 <body>
 	<div id="primaryContainer">
-		<div id="main"></div>
-		<div id="side">
-			<div id="textBox">
-				<div style="height: 30px;"></div>
-				<div style="font-size: 14px; font-weight: 600;">Philipp Pisarevskiy</div>
-				<div style="font-size: 14px">Product Designer</div>
-				<p/>
-				<div class="button">
-					<a target="_blank" href="docs/Philipp_P_CV.pdf" onclick="gtag('event', 'click', { 'event_category': 'Outbound Link', 'event_label': 'CV' });">Download CV</a>
-				</div>
-				<br/>
-				<div class="button">
-					<a target="_blank" href="https://drive.google.com/open?id=1pYRus8XuDkob2tWGrSSjSsUKObrpPldM" onclick="gtag('event', 'click', { 'event_category': 'Outbound Link', 'event_label': 'Portfolio' });">Browse portfolio</a>
-				</div>
-				<p>
-					<a href="mailto:philipp@yoursdesigner.com">philipp@yoursdesigner.com</a>
-					<br> +44 7935 146 787
-					<br> +7 912 340 7998</p>
-				<div style="text-align: justify">I am a BA Product Design graduate (1st Class Honours) at Central Saint Martins, part of UAL, world’s 6th art and design
-					university, according to QS World University Rankings.
-					<p/> After almost 4 years of practice working with clients on various tasks and gaining international academic experience
-					over several years, I feel confident to take part in your projects.
-					<p/> Whether that is a new social service that requires human-centred research, or a product that you want to look good
-					and then manufacture, or an app that requires prototyping and evaluation, my range of knowledge and skills may come
-					handy to help you achieve the desired result.
-				</div>
+		<div id="left">
+			<div id="left-table">
+				<div id="textBox">
+					<div class="valign gap"></div>
+					<div class="valign">
+						<div style="height: 30px;"></div>
+						<div style="font-size: 14px; font-weight: 600;">Philipp Pisarevskiy</div>
+						<div>Product Designer</div>
+						<p/>
+						<div class="button">
+							<a target="_blank" href="docs/Philipp_P_CV.pdf" onclick="gtag('event', 'click', { 'event_category': 'Outbound Link', 'event_label': 'CV' });">Download
+								CV</a>
+						</div>
+						<br/>
+						<div class="button">
+							<a target="_blank" href="https://drive.google.com/open?id=1pYRus8XuDkob2tWGrSSjSsUKObrpPldM" onclick="gtag('event', 'click', { 'event_category': 'Outbound Link', 'event_label': 'Portfolio' });">Download
+								portfolio</a>
+						</div>
+						<p>
+							<a href="mailto:philipp@yoursdesigner.com">philipp@yoursdesigner.com</a>
+							<br> +44 7935 146 787
+							<br> +7 912 340 7998</p>
+						<div style="text-align: justify">I am a BA Product Design graduate (1st Class Honours) at Central Saint Martins, part
+							of UAL, world’s 6th art and design university, according to QS World University Rankings.
+							<p/> I love making magic – experiences, interactions, sudden discoveries and emotions. For this portfolio, I have
+							selected 7 projects done over the past 4 years. Some of them are fully analog, others are full of electric components
+							and machine code, but central to all of the designs is the user that I want to excite.
+						</div>
 
-				<div style="height: 50px;"></div>
+						<div style="height: 50px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="main">
+			<div id="boxwrapper">
+						<div class="tr gap"></div>
+						<div class="tr header">
+							<div class="td header"><strong style="font-size: 14px;">Philosophy</strong><br>Designing the value of object</div>
+							<div class="td header"><strong style="font-size: 14px;">Future</strong><br>Rethinking the future of privacy</div>
+							<div class="td header"><strong style="font-size: 14px;">Aesthetics</strong><br>Breaking physical barriers</div>
+						</div>
+						<div class="tr">
+							<div class="td image" style="background-image: url(img/IMG_7994@2x.png);"></div>
+							<div class="td image" style="background-image: url(img/office2%20ps@2x.png);"></div>
+							<div class="td image" style="background-image: url(img/render904@2x.png);"></div>
+						</div>
+						<div class="tr">
+							<div class="td image" style="background-image: url(img/closeup@2x.png);"></div>
+							<div class="td image" style="background-image: url(img/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202016-11-18%20%D0%B2%2017.29.32@2x.png);"></div>
+							<div class="td image" style="background-image: url(img/badge-orange@2x.png);"></div>
+						</div>
+						<div class="tr header">
+							<div class="td header"><strong style="font-size: 14px;">User experience</strong><br> Shifting the perception of light</div>
+							<div class="td header"><strong style="font-size: 14px;">Design language</strong><br> Decoding the brand</div>
+							<div class="td header"><strong style="font-size: 14px;">Branding</strong><br> Creating the brand</div>
+						</div>
+						<div class="tr gap"></div>
 			</div>
 		</div>
 	</div>
