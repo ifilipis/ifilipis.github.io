@@ -1,6 +1,39 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&amp;subset=cyrillic" rel="stylesheet">
+    <style>
+    .button {
+			border-radius: 5px;
+			margin: 3px 0;
+			padding: 2px 6px;
+			border: thin solid gray;
+			display: inline-block;
+            background-color: white;
+		}
+    body {
+        margin: 0;
+        border: 0;
+        overflow: hidden;
+			font-family: 'Source Sans Pro', sans-serif;
+			font-size: 12px;
+			font-weight: 400;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: inherit;
+        font-size: inherit;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: inherit;
+        font-size: inherit;
+    }
+
+    </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122466626-1"></script>
     <script>
@@ -43,7 +76,8 @@
         </div>
     </noscript>
     <!-- /Yandex.Metrika counter -->
-    <script type="text/javascript">
+
+    <!-- OLD REDIRECT <script type="text/javascript">
         function getParameterByName(name, url) {
             if (!url) url = window.location.href;
             name = name.replace(/[\[\]]/g, '\\$&');
@@ -71,7 +105,44 @@
                 setTimeout(function () { window.location.href = window.portfolio; }, 500);
             }
         };
+    </script> -->
+
+    <script type="text/javascript">
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+        window.onload = function () {
+            var portfolio = "https://drive.google.com/file/d/1pYRus8XuDkob2tWGrSSjSsUKObrpPldM/preview";
+            var dl = "https://drive.google.com/uc?id=1pYRus8XuDkob2tWGrSSjSsUKObrpPldM&export=download";
+            if (getParameterByName("id", window.location.href) == null) {
+                portfolio = "https://drive.google.com/file/d/1pYRus8XuDkob2tWGrSSjSsUKObrpPldM/preview";
+                dl = "https://drive.google.com/uc?id=1pYRus8XuDkob2tWGrSSjSsUKObrpPldM&export=download";
+            } else {
+                var id = getParameterByName("id", window.location.href);
+                if (!new RegExp(/[^a-zA-Z0-9_\-]/g).exec(id) && id.length < 100) {
+                    portfolio = "https://drive.google.com/file/d/" + id + "/preview";
+                    dl = "https://drive.google.com/uc?id=" + id + "&export=download";
+                } else {
+                    portfolio = "https://drive.google.com/file/d/1pYRus8XuDkob2tWGrSSjSsUKObrpPldM/preview";
+                    dl = "https://drive.google.com/uc?id=1pYRus8XuDkob2tWGrSSjSsUKObrpPldM&export=download";
+                }
+            }
+            document.getElementById("iframe").setAttribute("src",portfolio)
+            document.getElementById("dl").setAttribute("src",dl);
+        };
     </script>
 </head>
-
+<body>
+    <div class="button" style="position: fixed; top: 30px; right: 60px;">
+        <a id="dl" target="_blank" onload="alert()" href="https://drive.google.com/uc?id=1pYRus8XuDkob2tWGrSSjSsUKObrpPldM&export=download"
+            onclick="gtag('event', 'click', { 'event_category': 'Outbound Link', 'event_label': 'CV' });">Download PDF</a>
+    </div>
+    <iframe id="iframe" src="about:blank" borderWidth="0" width="100%" height="100%"></iframe>
+</body>
 </html>
