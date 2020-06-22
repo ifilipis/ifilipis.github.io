@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="940px" height="512px" viewBox="0 0 940 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#32D5FF" offset="0%"></stop>
+            <stop stop-color="#00A7FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#F09947" offset="0%"></stop>
+            <stop stop-color="#FFCB1F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#6146FF" offset="0%"></stop>
+            <stop stop-color="#9300FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#47F0E7" offset="0%"></stop>
+            <stop stop-color="#00E795" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#9300FF" offset="0%"></stop>
+            <stop stop-color="#6146FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#FF9D46" offset="0%"></stop>
+            <stop stop-color="#FF7800" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#EEFDA4" offset="0%"></stop>
+            <stop stop-color="#B8F623" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#5BFCD0" offset="0%"></stop>
+            <stop stop-color="#20CE4A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#FFE775" offset="0%"></stop>
+            <stop stop-color="#FED421" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-10">
+            <stop stop-color="#508AFF" offset="0%"></stop>
+            <stop stop-color="#0018FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-11">
+            <stop stop-color="#FF7A00" offset="0%"></stop>
+            <stop stop-color="#FF0000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-12">
+            <stop stop-color="#FF005B" offset="0%"></stop>
+            <stop stop-color="#FF5A6C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-13">
+            <stop stop-color="#6CE5F1" offset="0%"></stop>
+            <stop stop-color="#20A5FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-14">
+            <stop stop-color="#F275D8" offset="0%"></stop>
+            <stop stop-color="#E54493" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6">
+            <g id="Group-5" transform="translate(518.000000, 84.000000)">
+                <circle id="Oval" fill="#FAFAFA" cx="18.5" cy="18.5" r="18.5"></circle>
+                <polyline id="Path" stroke="#9AEF7F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="10 21.0693334 16.2977946 25.8521921 26.3836542 13"></polyline>
+            </g>
+            <circle id="Oval-Copy-11" stroke="url(#linearGradient-1)" stroke-width="7" cx="753" cy="116" r="7.5"></circle>
+            <circle id="Oval-Copy-12" stroke="url(#linearGradient-2)" stroke-width="7" cx="263" cy="261" r="7.5"></circle>
+            <circle id="Oval-Copy-13" stroke="url(#linearGradient-3)" stroke-width="7" cx="459" cy="70" r="7.5"></circle>
+            <circle id="Oval-Copy-14" stroke="url(#linearGradient-4)" stroke-width="7" cx="697" cy="447" r="7.5"></circle>
+            <rect id="Rectangle" stroke="#E2E2E2" stroke-width="2" fill="#F8F8F8" x="707" y="265" width="142" height="142" rx="9"></rect>
+            <rect id="Rectangle-Copy-5" fill="url(#linearGradient-5)" x="109" y="0" width="74" height="74" rx="10"></rect>
+            <rect id="Rectangle-Copy-12" stroke="#E2E2E2" stroke-width="2" x="508" y="72" width="129" height="127" rx="10"></rect>
+            <rect id="Rectangle-Copy-14" stroke="#D7D7D7" stroke-width="2" x="90" y="336" width="139" height="136" rx="10"></rect>
+            <rect id="Rectangle-Copy-6" fill="url(#linearGradient-6)" x="542" y="145" width="200" height="200" rx="10"></rect>
+            <text id="Close-Round-A-fundin" font-family="SFProText-Bold, SF Pro Text" font-size="24" font-weight="bold" line-spacing="28" letter-spacing="-0.576" fill="#FFFFFF">
+                <tspan x="551.5" y="180">Close Round A </tspan>
+                <tspan x="590.570828" y="208">funding</tspan>
+            </text>
+            <rect id="Rectangle-Copy-9" fill="url(#linearGradient-7)" x="430" y="190" width="58" height="58" rx="10"></rect>
+            <rect id="Rectangle-Copy-7" fill="url(#linearGradient-8)" x="308" y="272" width="200" height="200" rx="12"></rect>
+            <text id="Get-promoted-to-a-se" font-family="SFProText-Bold, SF Pro Text" font-size="24" font-weight="bold" line-spacing="28" letter-spacing="-0.576" fill="#FFFFFF">
+                <tspan x="323.293313" y="309">Get promoted </tspan>
+                <tspan x="318" y="337">to a senior role</tspan>
+            </text>
+            <rect id="Rectangle-Copy-7" fill="url(#linearGradient-9)" x="542.5" y="391" width="122" height="121" rx="12"></rect>
+            <rect id="Rectangle-Copy-7" fill="url(#linearGradient-10)" x="208" y="27" width="200" height="200" rx="12"></rect>
+            <text id="Run-5-km-twice-a-wee" font-family="SFProText-Bold, SF Pro Text" font-size="24" font-weight="bold" line-spacing="28" letter-spacing="-0.576" fill="#FFFFFF">
+                <tspan x="243.360641" y="60.8789062">Run 5 km </tspan>
+                <tspan x="222.797797" y="88.8789062">twice a week</tspan>
+            </text>
+            <rect id="Rectangle" fill="url(#linearGradient-11)" x="597" y="27" width="90" height="90" rx="10"></rect>
+            <rect id="Rectangle-Copy-11" fill="url(#linearGradient-12)" x="796" y="200" width="144" height="144" rx="10"></rect>
+            <rect id="Rectangle-Copy-3" fill="url(#linearGradient-13)" x="159" y="303" width="115" height="115" rx="10"></rect>
+            <text id="Learn" font-family="SFProText-Bold, SF Pro Text" font-size="24" font-weight="bold" line-spacing="22" letter-spacing="-0.576" fill="#FFFFFF">
+                <tspan x="183" y="373">Learn</tspan>
+            </text>
+            <rect id="Rectangle-Copy-10" fill="url(#linearGradient-14)" x="0" y="98" width="182" height="181" rx="10"></rect>
+            <text id="Invent-a-closure-mec" font-family="SFProText-Bold, SF Pro Text" font-size="24" font-weight="bold" line-spacing="26" letter-spacing="-0.576" fill="#FFFFFF">
+                <tspan x="39.9580938" y="173">Invent a </tspan>
+                <tspan x="42.7814219" y="199">closure </tspan>
+                <tspan x="19" y="225">mechanism</tspan>
+            </text>
+            <text id="Launch-an-app" font-family="SFProText-Bold, SF Pro Text" font-size="22" font-weight="bold" line-spacing="24" letter-spacing="-0.528" fill="#FFFFFF">
+                <tspan x="564" y="446">Launch</tspan>
+                <tspan x="567.405273" y="470">an app</tspan>
+            </text>
+            <text id="Write-a-book" font-family="SFProText-Bold, SF Pro Text" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="-0.576" fill="#FFFFFF">
+                <tspan x="825.934141" y="228.878906">Write</tspan>
+                <tspan x="818.622531" y="252.878906">a book</tspan>
+            </text>
+            <text id="Make" font-family="SFProText-Bold, SF Pro Text" font-size="24" font-weight="bold" line-spacing="22" letter-spacing="-0.576" fill="#FFFFFF">
+                <tspan x="611" y="84">Make</tspan>
+            </text>
+            <text id="Go" font-family="SFProText-Bold, SF Pro Text" font-size="24" font-weight="bold" line-spacing="22" letter-spacing="-0.576" fill="#FFFFFF">
+                <tspan x="443" y="231">Go</tspan>
+            </text>
+            <text id="Do" font-family="SFProText-Bold, SF Pro Text" font-size="24" font-weight="bold" line-spacing="22" letter-spacing="-0.576" fill="#FFFFFF">
+                <tspan x="130" y="49">Do</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

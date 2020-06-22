@@ -1,158 +1,155 @@
-<!doctype html>
 <html>
 
 <head>
 	<meta charset="UTF-8">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&amp;subset=cyrillic" rel="stylesheet">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122466626-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'UA-122466626-1');
-	</script>
-	<!-- Yandex.Metrika counter -->
-	<script type="text/javascript">
-		(function (d, w, c) {
-			(w[c] = w[c] || []).push(function () {
-				try {
-					w.yaCounter49535986 = new Ya.Metrika2({
-						id: 49535986,
-						clickmap: true,
-						trackLinks: true,
-						accurateTrackBounce: true
-					});
-				} catch (e) { }
-			});
-
-			var n = d.getElementsByTagName("script")[0],
-				s = d.createElement("script"),
-				f = function () { n.parentNode.insertBefore(s, n); };
-			s.type = "text/javascript";
-			s.async = true;
-			s.src = "https://mc.yandex.ru/metrika/tag.js";
-
-			if (w.opera == "[object Opera]") {
-				d.addEventListener("DOMContentLoaded", f, false);
-			} else { f(); }
-		})(document, window, "yandex_metrika_callbacks2");
-	</script>
-	<noscript>
-		<div>
-			<img src="https://mc.yandex.ru/watch/49535986" style="position:absolute; left:-9999px;" alt="" />
-		</div>
-	</noscript>
-	<!-- /Yandex.Metrika counter -->
-	<style>
-		html,
-		body {
-			height: 100%;
-			width: 100%;
-			overflow: hidden;
-			margin: 0;
-		}
-
-		body {
-			font-family: 'Source Sans Pro', sans-serif;
-			font-size: 12px;
-			font-weight: 400;
-		}
-
-		#primaryContainer {
-			display: table;
-			height: 100%;
-			width: 100%;
-			margin: 0;
-		}
-
-		#main {
-			display: table-cell;
-			width: 80%;
-			height: 100%;
-			overflow: hidden;
-			background-image: url("img/IMG_0019.jpg");
-			background-clip: border-box;
-			background-size: cover;
-			background-position-x: 50%;
-			background-position-y: 50%;
-		}
-
-		#side {
-			display: table-cell;
-			width: 20%;
-			min-width: 280px;
-			height: 100%;
-		}
-
-		#textBox {
-			/*margin-left: 40px;
-	margin-right: 40px;
-	margin-top: 30px;
-	margin-bottom: 40px;*/
-			padding: 0 40px;
-			position: absolute;
-			overflow: scroll;
-			height: 100%;
-		}
-
-		a:link {
-			text-decoration: none;
-			color: inherit;
-			font-size: inherit;
-		}
-
-		a:visited {
-			text-decoration: none;
-			color: inherit;
-			font-size: inherit;
-		}
-
-		.button {
+    
+    <style>
+    .button {
 			border-radius: 5px;
 			margin: 3px 0;
 			padding: 2px 6px;
 			border: thin solid gray;
 			display: inline-block;
+            background-color: white;
 		}
-	</style>
+    body {
+        margin: 0;
+        border: 0;
+        overflow: hidden;
+			font-family: 'Source Sans Pro', sans-serif;
+			font-size: 12px;
+			font-weight: 400;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: inherit;
+        font-size: inherit;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: inherit;
+        font-size: inherit;
+    }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122466626-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-122466626-1');
+    </script> -->
+
+    <!-- Yandex.Metrika counter -->
+    <!-- <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function () {
+                try {
+                    w.yaCounter49535986 = new Ya.Metrika2({
+                        id: 49535986,
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true
+                    });
+                } catch (e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks2");
+    </script>
+    <noscript>
+        <div>
+            <img src="https://mc.yandex.ru/watch/49535986" style="position:absolute; left:-9999px;" alt="" />
+        </div>
+    </noscript>-->
+    <!-- /Yandex.Metrika counter -->
+
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * Math.floor(max));
+        }
+        function getCookie(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return parts.pop().split(';').shift();
+        }
+        window.onload = function () {
+            var mode = getParameterByName("mode", window.location.href);
+            if(mode != null) {
+                switch(mode) {
+                    case "0": 
+                        document.getElementById("iframe").setAttribute("src","index-ni.html");
+                        break;
+                    case "1":
+                        document.getElementById("iframe").setAttribute("src","index-bs.html");
+                        break;
+                    case "2":
+                        document.getElementById("iframe").setAttribute("src","index-bs-vert.html");
+                        break;
+                    default:
+                        document.getElementById("iframe").setAttribute("src","index-ni.html");
+                        mode="0";
+                        break;
+                }
+                document.cookie = "mode="+mode;
+                return;
+            }
+            if(geoplugin_countryCode() == "RU") { document.getElementById("iframe").setAttribute("src","index-ni.html"); return; }
+            var moderand = getRandomInt(3);
+            if(getCookie("mode")!=null) moderand = parseInt(getCookie("mode"));
+            switch(moderand) {
+                    case 0: 
+                        document.getElementById("iframe").setAttribute("src","index-ni.html");
+                        break;
+                    case 1:
+                        document.getElementById("iframe").setAttribute("src","index-bs.html");
+                        break;
+                    case 2:
+                        document.getElementById("iframe").setAttribute("src","index-bs-vert.html");
+                        break;
+                    default:
+                        document.getElementById("iframe").setAttribute("src","index-ni.html");
+                        mode="0";
+                        break;
+                }
+            document.cookie = "mode="+moderand;
+        };
+    </script>
+
+	<meta property="og:title" content="Philipp Pisarevskiy">
+	<meta property="og:description" content="Skilled Product Designer">
+	<meta property="og:image" content="https://pisarevskiy.me/img/phos-table.jpg">
+	<meta property="og:url" content="https://pisarevskiy.me/portfolio">
+	<meta property="og:site_name" content="Philipp Pisarevskiy">
+	<meta property="og:type" content="website">
+	<meta name="description" content="Skilled Product Designer">
 	<title>Philipp Pisarevskiy</title>
 </head>
-
 <body>
-	<div id="primaryContainer">
-		<div id="main"></div>
-		<div id="side">
-			<div id="textBox">
-				<div style="height: 30px;"></div>
-				<div style="font-size: 14px; font-weight: 600;">Philipp Pisarevskiy</div>
-				<div style="font-size: 14px">Product Designer</div>
-				<p/>
-				<div class="button">
-					<a target="_blank" href="docs/Philipp_P_CV.pdf" onclick="gtag('event', 'click', { 'event_category': 'Outbound Link', 'event_label': 'CV' });">Download CV</a>
-				</div>
-				<br/>
-				<div class="button">
-					<a target="_blank" href="https://drive.google.com/open?id=1pYRus8XuDkob2tWGrSSjSsUKObrpPldM" onclick="gtag('event', 'click', { 'event_category': 'Outbound Link', 'event_label': 'Portfolio' });">Browse portfolio</a>
-				</div>
-				<p>
-					<a href="mailto:philipp@yoursdesigner.com">philipp@yoursdesigner.com</a>
-					<br> +44 7935 146 787
-					<br> +7 912 340 7998</p>
-				<div style="text-align: justify">I am a BA Product Design graduate (1st Class Honours) at Central Saint Martins, part of UAL, world’s 6th art and design
-					university, according to QS World University Rankings.
-					<p/> After almost 4 years of practice working with clients on various tasks and gaining international academic experience
-					over several years, I feel confident to take part in your projects.
-					<p/> Whether that is a new social service that requires human-centred research, or a product that you want to look good
-					and then manufacture, or an app that requires prototyping and evaluation, my range of knowledge and skills may come
-					handy to help you achieve the desired result.
-				</div>
-
-				<div style="height: 50px;"></div>
-			</div>
-		</div>
-	</div>
+    <iframe id="iframe" src="about:blank" borderWidth="0" style="border: 0;" width="100%" height="100%"></iframe>
 </body>
-
 </html>
