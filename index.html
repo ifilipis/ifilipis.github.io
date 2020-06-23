@@ -107,37 +107,47 @@
             if(mode != null) {
                 switch(mode) {
                     case "0": 
-                        document.getElementById("iframe").setAttribute("src","index-ni.html");
+                        /*document.getElementById("iframe").setAttribute("src","index-ni.html");*/
+                        window.location.href = "https://pisarevskiy.me/index-ni.html";
                         break;
                     case "1":
-                        document.getElementById("iframe").setAttribute("src","index-bs.html");
+                        /*document.getElementById("iframe").setAttribute("src","index-bs.html");*/
+                        window.location.href = "https://pisarevskiy.me/index-bs.html";
                         break;
                     case "2":
-                        document.getElementById("iframe").setAttribute("src","index-bs-vert.html");
+                        /*document.getElementById("iframe").setAttribute("src","index-bs-vert.html");*/
+                        window.location.href = "https://pisarevskiy.me/index-bs-vert.html";
                         break;
                     default:
-                        document.getElementById("iframe").setAttribute("src","index-ni.html");
+                        /*document.getElementById("iframe").setAttribute("src","index-ni.html");*/
+                        window.location.href = "https://pisarevskiy.me/index-ni.html";
                         mode="0";
                         break;
                 }
                 document.cookie = "mode="+mode;
                 return;
             }
-            if(getCode(this.responseText) == "RU") { document.getElementById("iframe").setAttribute("src","index-ni.html"); return; }
+            if(getCode(this.responseText) == "RU") { /*document.getElementById("iframe").setAttribute("src","index-ni.html");*/
+                                                        window.location.href = "https://pisarevskiy.me/index-ni.html";
+                                                        return; }
             var moderand = getRandomInt(3);
             if(getCookie("mode")!=null) moderand = parseInt(getCookie("mode"));
             switch(moderand) {
                     case 0: 
-                        document.getElementById("iframe").setAttribute("src","index-ni.html");
+                        /*document.getElementById("iframe").setAttribute("src","index-ni.html");*/
+                        window.location.href = "https://pisarevskiy.me/index-ni.html";
                         break;
                     case 1:
-                        document.getElementById("iframe").setAttribute("src","index-bs.html");
+                        /*document.getElementById("iframe").setAttribute("src","index-bs.html");*/
+                        window.location.href = "https://pisarevskiy.me/index-bs.html";
                         break;
                     case 2:
-                        document.getElementById("iframe").setAttribute("src","index-bs-vert.html");
+                        /*document.getElementById("iframe").setAttribute("src","index-bs-vert.html");*/
+                        window.location.href = "https://pisarevskiy.me/index-bs-vert.html";
                         break;
                     default:
-                        document.getElementById("iframe").setAttribute("src","index-ni.html");
+                        /*document.getElementById("iframe").setAttribute("src","index-ni.html");*/
+                        window.location.href = "https://pisarevskiy.me/index-ni.html";
                         mode="0";
                         break;
                 }
